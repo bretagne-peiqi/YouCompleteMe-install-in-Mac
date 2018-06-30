@@ -1,0 +1,4 @@
+git commit --amend --author="pshi <uestc.shi@gmail.com>" --no-edit
+
+git config user.name "pshi"
+git config user.email "uestc_shi@gmail.com"
