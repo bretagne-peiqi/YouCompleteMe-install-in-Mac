@@ -13,3 +13,9 @@ the logic used to debug: vim -> vim-plugins (Ycm writen in python, client of goc
 golang version 1.11 is not good for gocode completer; better use version 1.10
 
 be careful with python version, because vim-plugins(ycm) is written in python
+
+
+using wireshark in Mac-OS to capture distant traffic ...
+
+ssh root@remote-host ‘/usr/sbin/dumpcap -w - -f "not port 22” ‘ | wireshark -k -i -
+
