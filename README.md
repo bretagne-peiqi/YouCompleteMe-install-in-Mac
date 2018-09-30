@@ -1,3 +1,5 @@
+### typical example for .vimrc configuring golang
+
 set nocompatible              " be iMproved
 
 set nu
