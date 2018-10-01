@@ -19,3 +19,9 @@ using wireshark in Mac-OS to capture distant traffic ...
 
 ssh root@remote-host ‘/usr/sbin/dumpcap -w - -f "not port 22” ‘ | wireshark -k -i -
 
+build from docker Mac-OS
+
+path set in docker preference file sharing.
+chmod -R 755 project
+
+docker run --rm  --privileged=true -u root:root -v /usr/local/go:/go 5b1054129196 sh -c "cd /go/src/github.com/bretagne-peiqi/lvs-nginx-controller/cmd/lvs-controller && go build main.go"
